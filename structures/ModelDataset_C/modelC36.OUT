@@ -1,0 +1,21 @@
+ SAP2000 v20.2.0 Ultimate 64-bit (Analysis Build 9663/64)                       
+ File: D:\PROJECTS\minipro-S6\SAP_API\structures\ModelDataset_C\modelC36.OUT    
+                                                                     
+                                                                       
+
+ D I S P L A C E M E N T   D E G R E E S   O F   F R E E D O M
+
+         (A) = Active DOF, equilibrium equation
+         (-) = Restrained DOF, reaction computed
+         (+) = Constrained DOF
+         (>) = External substructure DOF
+         ( ) = Null DOF
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+      59               -   -   -   -   -   -
+      60 TO     113    A   A   A   A   A   A
+     116               -   -   -   -   -   -
+     117 TO     122    A   A   A   A   A   A
+     123               -   -   -   -   -   -
+     124 TO     171    A   A   A   A   A   A
+     172               -   -   -   -   -   -
