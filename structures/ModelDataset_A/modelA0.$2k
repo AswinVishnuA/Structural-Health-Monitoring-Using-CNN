@@ -1780,7 +1780,7 @@ TABLE:  "FRAME SECTION ASSIGNMENTS"
    Frame=179   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
    Frame=180   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
    Frame=181   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
-   Frame=182   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
+   Frame=182   AutoSelect=N.A.   AnalSect=rod   MatProp=SteelEHalved
    Frame=183   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
    Frame=184   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
    Frame=185   AutoSelect=N.A.   AnalSect=rod   MatProp=Default

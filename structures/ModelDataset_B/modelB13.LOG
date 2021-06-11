@@ -6,7 +6,7 @@
 
 
 
- B E G I N   A N A L Y S I S                                2019/02/01  00:11:34
+ B E G I N   A N A L Y S I S                                2019/02/01  04:00:31
 
 
  RUNNING ANALYSIS WITHIN THE GUI PROCESS
@@ -32,11 +32,11 @@
  NUMBER OF THREADS: FORM (AUTOMATIC)       =           4
 
 
- E L E M E N T   F O R M A T I O N                                      00:11:34
+ E L E M E N T   F O R M A T I O N                                      04:00:31
 
 
 
- L I N E A R   E Q U A T I O N   S O L U T I O N                        00:11:34
+ L I N E A R   E Q U A T I O N   S O L U T I O N                        04:00:31
 
  FORMING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
@@ -53,7 +53,7 @@
  ---------------------------------
 
 
- L I N E A R   S T A T I C   C A S E S                                  00:11:34
+ L I N E A R   S T A T I C   C A S E S                                  04:00:31
 
  USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
@@ -65,7 +65,7 @@
  CASE: DEAD
 
 
- E I G E N   M O D A L   A N A L Y S I S                                00:11:34
+ E I G E N   M O D A L   A N A L Y S I S                                04:00:31
 
  CASE: MODAL
 
@@ -117,7 +117,7 @@
  NUMBER OF STIFFNESS SHIFTS                =           0
 
 
- L I N E A R   M O D A L   H I S T O R Y   A N A L Y S I S              00:11:35
+ L I N E A R   M O D A L   H I S T O R Y   A N A L Y S I S              04:00:31
 
  CASE: HAMMER_EXCITATION
  ANALYSIS TYPE                             =      LINEAR
@@ -1220,4 +1220,4 @@
  TOTAL NUMBER OF LOAD-STEPS COMPLETED      =        9195
 
 
- A N A L Y S I S   C O M P L E T E                          2019/02/01  00:11:35
+ A N A L Y S I S   C O M P L E T E                          2019/02/01  04:00:31

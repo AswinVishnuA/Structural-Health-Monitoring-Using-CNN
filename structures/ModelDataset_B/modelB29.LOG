@@ -6,7 +6,7 @@
 
 
 
- B E G I N   A N A L Y S I S                                2019/02/01  00:15:41
+ B E G I N   A N A L Y S I S                                2019/02/01  04:04:41
 
 
  RUNNING ANALYSIS WITHIN THE GUI PROCESS
@@ -32,11 +32,11 @@
  NUMBER OF THREADS: FORM (AUTOMATIC)       =           4
 
 
- E L E M E N T   F O R M A T I O N                                      00:15:41
+ E L E M E N T   F O R M A T I O N                                      04:04:41
 
 
 
- L I N E A R   E Q U A T I O N   S O L U T I O N                        00:15:41
+ L I N E A R   E Q U A T I O N   S O L U T I O N                        04:04:41
 
  FORMING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
@@ -53,7 +53,7 @@
  ---------------------------------
 
 
- L I N E A R   S T A T I C   C A S E S                                  00:15:41
+ L I N E A R   S T A T I C   C A S E S                                  04:04:41
 
  USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
@@ -65,7 +65,7 @@
  CASE: DEAD
 
 
- E I G E N   M O D A L   A N A L Y S I S                                00:15:41
+ E I G E N   M O D A L   A N A L Y S I S                                04:04:41
 
  CASE: MODAL
 
@@ -88,6 +88,7 @@
  Number of eigenvalues below shift =      0
 
  Iteration    Approximations to next 5 eigenvalues, from shift EV= 0.0000000E+00
+       1   3.9399591E+03 5.9969488E+03 1.4500662E+04 3.6399473E+04 4.1092804E+04
        2   3.9177593E+03 5.9604903E+03 1.4332499E+04 3.5340726E+04 3.9942998E+04
        4   3.9177592E+03 5.9604903E+03 1.4332497E+04 3.5340522E+04 3.9942880E+04
 
@@ -113,7 +114,7 @@
  NUMBER OF STIFFNESS SHIFTS                =           0
 
 
- L I N E A R   M O D A L   H I S T O R Y   A N A L Y S I S              00:15:41
+ L I N E A R   M O D A L   H I S T O R Y   A N A L Y S I S              04:04:41
 
  CASE: HAMMER_EXCITATION
  ANALYSIS TYPE                             =      LINEAR
@@ -1216,4 +1217,4 @@
  TOTAL NUMBER OF LOAD-STEPS COMPLETED      =        9195
 
 
- A N A L Y S I S   C O M P L E T E                          2019/02/01  00:15:42
+ A N A L Y S I S   C O M P L E T E                          2019/02/01  04:04:42

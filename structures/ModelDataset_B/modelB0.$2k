@@ -1791,7 +1791,7 @@ TABLE:  "FRAME SECTION ASSIGNMENTS"
    Frame=190   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
    Frame=191   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
    Frame=192   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
-   Frame=193   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
+   Frame=193   AutoSelect=N.A.   AnalSect=rod   MatProp=Steel
    Frame=194   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
    Frame=195   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
    Frame=196   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
@@ -1809,7 +1809,7 @@ TABLE:  "FRAME SECTION ASSIGNMENTS"
    Frame=208   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
    Frame=211   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
    Frame=212   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
-   Frame=213   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
+   Frame=213   AutoSelect=N.A.   AnalSect=rod   MatProp=Steel
    Frame=215   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
    Frame=216   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
    Frame=219   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
@@ -1818,10 +1818,10 @@ TABLE:  "FRAME SECTION ASSIGNMENTS"
    Frame=224   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
    Frame=225   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
    Frame=226   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
-   Frame=227   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
+   Frame=227   AutoSelect=N.A.   AnalSect=rod   MatProp=Steel
    Frame=228   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
    Frame=229   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
-   Frame=230   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
+   Frame=230   AutoSelect=N.A.   AnalSect=rod   MatProp=Steel
    Frame=231   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
    Frame=232   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
    Frame=233   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
@@ -1844,7 +1844,7 @@ TABLE:  "FRAME SECTION ASSIGNMENTS"
    Frame=252   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
    Frame=253   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
    Frame=254   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
-   Frame=255   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
+   Frame=255   AutoSelect=N.A.   AnalSect=rod   MatProp=Steel
    Frame=256   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
    Frame=257   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
    Frame=258   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
@@ -1975,7 +1975,7 @@ TABLE:  "FRAME SECTION ASSIGNMENTS"
    Frame=435   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
    Frame=436   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
    Frame=437   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
-   Frame=438   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
+   Frame=438   AutoSelect=N.A.   AnalSect=rod   MatProp=Steel
    Frame=439   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
    Frame=440   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
    Frame=441   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
@@ -1983,7 +1983,7 @@ TABLE:  "FRAME SECTION ASSIGNMENTS"
    Frame=443   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
    Frame=444   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
    Frame=445   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
-   Frame=446   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
+   Frame=446   AutoSelect=N.A.   AnalSect=rod   MatProp=Steel
    Frame=447   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
    Frame=448   AutoSelect=N.A.   AnalSect=rod   MatProp=Default
    Frame=449   AutoSelect=N.A.   AnalSect=rod   MatProp=Default

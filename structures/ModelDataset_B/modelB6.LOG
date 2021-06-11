@@ -6,7 +6,7 @@
 
 
 
- B E G I N   A N A L Y S I S                                2019/02/01  00:09:46
+ B E G I N   A N A L Y S I S                                2019/02/01  03:58:40
 
 
  RUNNING ANALYSIS WITHIN THE GUI PROCESS
@@ -32,11 +32,11 @@
  NUMBER OF THREADS: FORM (AUTOMATIC)       =           4
 
 
- E L E M E N T   F O R M A T I O N                                      00:09:46
+ E L E M E N T   F O R M A T I O N                                      03:58:40
 
 
 
- L I N E A R   E Q U A T I O N   S O L U T I O N                        00:09:46
+ L I N E A R   E Q U A T I O N   S O L U T I O N                        03:58:40
 
  FORMING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
@@ -53,7 +53,7 @@
  ---------------------------------
 
 
- L I N E A R   S T A T I C   C A S E S                                  00:09:46
+ L I N E A R   S T A T I C   C A S E S                                  03:58:40
 
  USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
@@ -65,7 +65,7 @@
  CASE: DEAD
 
 
- E I G E N   M O D A L   A N A L Y S I S                                00:09:46
+ E I G E N   M O D A L   A N A L Y S I S                                03:58:40
 
  CASE: MODAL
 
@@ -88,19 +88,19 @@
  Number of eigenvalues below shift =      0
 
  Iteration    Approximations to next 5 eigenvalues, from shift EV= 0.0000000E+00
-       2   3.9161430E+03 5.9495911E+03 1.4337372E+04 3.5905601E+04 4.0060489E+04
-       4   3.9161429E+03 5.9495911E+03 1.4337370E+04 3.5905384E+04 4.0060382E+04
+       1   3.9381402E+03 5.9860392E+03 1.4504474E+04 3.7052328E+04 4.1138453E+04
+       3   3.9161429E+03 5.9495911E+03 1.4337370E+04 3.5905384E+04 4.0060382E+04
 
  Found mode      1 of     12:  EV= 3.9161429E+03, f=    9.959772, T=    0.100404
  Found mode      2 of     12:  EV= 5.9495911E+03, f=   12.276193, T=    0.081458
  Found mode      3 of     12:  EV= 1.4337370E+04, f=   19.057015, T=    0.052474
  Found mode      4 of     12:  EV= 3.5905384E+04, f=   30.157818, T=    0.033159
  Found mode      5 of     12:  EV= 4.0060382E+04, f=   31.855005, T=    0.031392
- Found mode      6 of     12:  EV= 1.3062376E+05, f=   57.521635, T=    0.017385
 
  Iteration    Approximations to next 5 eigenvalues, from shift EV= 0.0000000E+00
-       6   1.3581937E+05 1.6280143E+05 1.7140849E+05 1.7936047E+05 2.6605238E+05
+       5   1.3062376E+05 1.3581937E+05 1.6280143E+05 1.7140849E+05 1.7936047E+05
 
+ Found mode      6 of     12:  EV= 1.3062376E+05, f=   57.521635, T=    0.017385
  Found mode      7 of     12:  EV= 1.3581937E+05, f=   58.654452, T=    0.017049
  Found mode      8 of     12:  EV= 1.6280143E+05, f=   64.216887, T=    0.015572
  Found mode      9 of     12:  EV= 1.7140849E+05, f=   65.892547, T=    0.015176
@@ -117,7 +117,7 @@
  NUMBER OF STIFFNESS SHIFTS                =           0
 
 
- L I N E A R   M O D A L   H I S T O R Y   A N A L Y S I S              00:09:47
+ L I N E A R   M O D A L   H I S T O R Y   A N A L Y S I S              03:58:40
 
  CASE: HAMMER_EXCITATION
  ANALYSIS TYPE                             =      LINEAR
@@ -1220,4 +1220,4 @@
  TOTAL NUMBER OF LOAD-STEPS COMPLETED      =        9195
 
 
- A N A L Y S I S   C O M P L E T E                          2019/02/01  00:09:47
+ A N A L Y S I S   C O M P L E T E                          2019/02/01  03:58:41
