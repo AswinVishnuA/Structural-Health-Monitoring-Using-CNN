@@ -6,7 +6,7 @@
 
 
 
- B E G I N   A N A L Y S I S                                2019/02/01  04:02:05
+ B E G I N   A N A L Y S I S                                2019/02/01  00:13:08
 
 
  RUNNING ANALYSIS WITHIN THE GUI PROCESS
@@ -32,11 +32,11 @@
  NUMBER OF THREADS: FORM (AUTOMATIC)       =           4
 
 
- E L E M E N T   F O R M A T I O N                                      04:02:05
+ E L E M E N T   F O R M A T I O N                                      00:13:08
 
 
 
- L I N E A R   E Q U A T I O N   S O L U T I O N                        04:02:05
+ L I N E A R   E Q U A T I O N   S O L U T I O N                        00:13:08
 
  FORMING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
@@ -53,7 +53,7 @@
  ---------------------------------
 
 
- L I N E A R   S T A T I C   C A S E S                                  04:02:05
+ L I N E A R   S T A T I C   C A S E S                                  00:13:08
 
  USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
@@ -65,7 +65,7 @@
  CASE: DEAD
 
 
- E I G E N   M O D A L   A N A L Y S I S                                04:02:05
+ E I G E N   M O D A L   A N A L Y S I S                                00:13:08
 
  CASE: MODAL
 
@@ -88,7 +88,8 @@
  Number of eigenvalues below shift =      0
 
  Iteration    Approximations to next 5 eigenvalues, from shift EV= 0.0000000E+00
-       2   3.9100107E+03 5.9343834E+03 1.4346365E+04 3.5379333E+04 3.9663087E+04
+       1   3.9318034E+03 5.9711635E+03 1.4513873E+04 3.6425296E+04 4.0806686E+04
+       3   3.9100106E+03 5.9343833E+03 1.4346363E+04 3.5379139E+04 3.9662963E+04
        4   3.9100106E+03 5.9343833E+03 1.4346363E+04 3.5379139E+04 3.9662963E+04
 
  Found mode      1 of     12:  EV= 3.9100106E+03, f=    9.951971, T=    0.100483
@@ -113,7 +114,7 @@
  NUMBER OF STIFFNESS SHIFTS                =           0
 
 
- L I N E A R   M O D A L   H I S T O R Y   A N A L Y S I S              04:02:05
+ L I N E A R   M O D A L   H I S T O R Y   A N A L Y S I S              00:13:08
 
  CASE: HAMMER_EXCITATION
  ANALYSIS TYPE                             =      LINEAR
@@ -1216,4 +1217,4 @@
  TOTAL NUMBER OF LOAD-STEPS COMPLETED      =        9195
 
 
- A N A L Y S I S   C O M P L E T E                          2019/02/01  04:02:06
+ A N A L Y S I S   C O M P L E T E                          2019/02/01  00:13:08

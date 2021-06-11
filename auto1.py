@@ -3,6 +3,7 @@ import sys
 import comtypes.client
 from itertools import combinations
 import pyautogui
+import shutil
 
 
 AttachToInstance = True
@@ -62,7 +63,7 @@ SapModel = mySapObject.SapModel
 filename=r"D:\PROJECTS\minipro-S6\SAP_API\structures\lattice02.sdb"
 ret = SapModel.File.OpenFile(filename)
 
-listOfDamagePoints=[182,430,193,213,438,230,227,446,255]
+listOfDamagePoints=[182,430]#,193,213,438,230,227,446,255]
 Failcond=1
 InJoints=["121","124","129","133","137","145","143","148","152","156","160","164","168"]
 
@@ -73,13 +74,14 @@ def autoGui(case,count):
     pyautogui.click(639,483)
     pyautogui.keyDown('shift')
     pyautogui.press('down',13)
-    pyautogui.keyUp('shift')    
+    pyautogui.keyUp('shift')  
+     
     #pyautogui.dragTo(655,656,2)#selecting joints
     pyautogui.click(806,499,interval=1)#click add
     pyautogui.click(1268, 774,interval=1)#click display
     pyautogui.click(608, 330,interval=1)#click file
     pyautogui.click(654, 438,interval=1)#click print file
-    pyautogui.write("model{}{}.txt".format(case,count))
+    pyautogui.typewrite(r"D:\PROJECTS\minipro-S6\SAP_API\tempDatafiles\model{}{}.txt".format(case,count))
     pyautogui.press('enter')
     pyautogui.click(1203,725,interval=1)
     pyautogui.click(1298,810,interval=1)
@@ -103,6 +105,14 @@ for idx,case in enumerate(['A','B','C']):
     print("Number of combinations: ",count)
 
 
+fromfolder=r'D:\PROJECTS\minipro-S6\SAP_API\tempDatafiles'
+tofolder=r'D:\PROJECTS\minipro-S6\SAP_API\datafiles'
+for filename in os.listdir(fromfolder):
+    print(filename)
+    fromfilepath=os.path.join(fromfolder,filename)
+    tofilepath=os.path.join(tofolder,filename)  
+    if filename.endswith(".txt")==1:
+        shutil.move(fromfilepath,tofilepath)
 
 '''for i in listOfDamagePoints:
     ret = SapModel.FrameObj.SetMaterialOverwrite(str(i), "4000Psi")
@@ -111,7 +121,8 @@ for idx,case in enumerate(['A','B','C']):
     ret = SapModel.NamedSets.SetJointRespSpec("Sample", "Hammer_excitation", 13, InJoints, "Global", 1, 1, 4, True, True, 0, [], 0, [])
     ret = SapModel.NamedSets.GetJointRespSpec("Sample", "Hammer_excitation", 13, InJoints, "Global", 1, 1, 4, True, True, 0, [],0, [], 1, 0, 1, 1)
     print(ret)
-    '''
+
+'''
 
 
 

@@ -6,7 +6,7 @@
 
 
 
- B E G I N   A N A L Y S I S                                2019/02/01  04:06:14
+ B E G I N   A N A L Y S I S                                2019/02/01  00:17:12
 
 
  RUNNING ANALYSIS WITHIN THE GUI PROCESS
@@ -32,11 +32,11 @@
  NUMBER OF THREADS: FORM (AUTOMATIC)       =           4
 
 
- E L E M E N T   F O R M A T I O N                                      04:06:15
+ E L E M E N T   F O R M A T I O N                                      00:17:12
 
 
 
- L I N E A R   E Q U A T I O N   S O L U T I O N                        04:06:15
+ L I N E A R   E Q U A T I O N   S O L U T I O N                        00:17:12
 
  FORMING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
@@ -53,7 +53,7 @@
  ---------------------------------
 
 
- L I N E A R   S T A T I C   C A S E S                                  04:06:15
+ L I N E A R   S T A T I C   C A S E S                                  00:17:12
 
  USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
@@ -65,7 +65,7 @@
  CASE: DEAD
 
 
- E I G E N   M O D A L   A N A L Y S I S                                04:06:15
+ E I G E N   M O D A L   A N A L Y S I S                                00:17:12
 
  CASE: MODAL
 
@@ -106,10 +106,6 @@
  Found mode      9 of     12:  EV= 1.7053580E+05, f=   65.724595, T=    0.015215
  Found mode     10 of     12:  EV= 1.7840065E+05, f=   67.223070, T=    0.014876
  Found mode     11 of     12:  EV= 2.6390110E+05, f=   81.759971, T=    0.012231
-
- Iteration    Approximations to next 5 eigenvalues, from shift EV= 0.0000000E+00
-       7   3.8103626E+05 4.3817339E+05 4.4274232E+05 5.4245469E+05 6.8122271E+05
-
  Found mode     12 of     12:  EV= 3.8103626E+05, f=   98.243378, T=    0.010179
 
  NUMBER OF EIGEN MODES FOUND               =          12
@@ -117,7 +113,7 @@
  NUMBER OF STIFFNESS SHIFTS                =           0
 
 
- L I N E A R   M O D A L   H I S T O R Y   A N A L Y S I S              04:06:15
+ L I N E A R   M O D A L   H I S T O R Y   A N A L Y S I S              00:17:12
 
  CASE: HAMMER_EXCITATION
  ANALYSIS TYPE                             =      LINEAR
@@ -1220,4 +1216,4 @@
  TOTAL NUMBER OF LOAD-STEPS COMPLETED      =        9195
 
 
- A N A L Y S I S   C O M P L E T E                          2019/02/01  04:06:15
+ A N A L Y S I S   C O M P L E T E                          2019/02/01  00:17:12
