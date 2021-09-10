@@ -1,13 +1,20 @@
 import os
 import comtypes
 import sys
+# from Automation.datagen import AttachToInstance
+from pywinauto import Desktop
 
 
 
 
 # check whether there is a running Sap window open
-def sapCheck():
-    if()
+def isSapOpen():
+    windows = Desktop(backend="uia").windows()
+    listOfWindows=[w.window_text() for w in windows]
+    for win in listOfWindows:
+        if(str(win).startswith("SAP")):
+            return True
+    return False
 
 #creates a folder   
 def createApiPath(path):
@@ -23,8 +30,9 @@ def createApiPath(path):
 
             pass
 
+ProgramPath = 'C:\Program Files (x86)\Computers and Structures\SAP2000 20\SAP2000.exe'
 
-APIPath ='D:\PROJECTS\minipro-S6\SAP_API\trialApi'
+APIPath =r'D:\PROJECTS\minipro-S6\SAP_API\src\Automation\trialApi'
 
 SpecifyPath = False
 
@@ -32,8 +40,9 @@ createApiPath(APIPath)
 
 ModelPath = APIPath + os.sep + 'API_1-001.sdb'
 
-ModelPath = APIPath + os.sep + 'API_1-001.sdb'
+AttachToInstance=isSapOpen()
 
+print(AttachToInstance)
 
 if AttachToInstance:
 
@@ -65,6 +74,16 @@ else:
 
             sys.exit(-1)
     mySapObject.ApplicationStart()
+
+print("end is near")
+
+
+
+
+
+
+
+
 
 
 

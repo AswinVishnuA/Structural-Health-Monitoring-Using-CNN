@@ -4,18 +4,9 @@ import comtypes.client
 from itertools import combinations
 import pyautogui
 import shutil
-from pywinauto import Desktop
 
-def isSapOpen():
-    windows = Desktop(backend="uia").windows()
-    listOfWindows=[w.window_text() for w in windows]
-    for win in listOfWindows:
-        if(str(win).startswith("SAP")):
-            return True
-    return False
 
-AttachToInstance = isSapOpen
-
+AttachToInstance = True
 
 SpecifyPath = False
 

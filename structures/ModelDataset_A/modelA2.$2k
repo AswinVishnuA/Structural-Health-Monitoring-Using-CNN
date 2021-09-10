@@ -2057,7 +2057,7 @@ TABLE:  "FUNCTION - STEADY STATE - USER"
    Name=UNIFSS   Frequency=1   Value=1
  
 TABLE:  "FUNCTION - TIME HISTORY - FROM FILE"
-   Name=exc_fun   HeaderLines=0   PrefixChars=0   PtsPerLine=1   DataType="Equal Interval"   FormatType=Free   Interval=1E-05   FileName=d:\projects\minipro-s6\sap_api\hammer\hammer.th
+   Name=exc_fun   HeaderLines=0   PrefixChars=0   PtsPerLine=1   DataType="Equal Interval"   FormatType=Free   Interval=1E-05   FileName=d:\projects\minipro-s6\sap_api\src\automation\hammer\hammer.th
  
 TABLE:  "FUNCTION - TIME HISTORY - USER"
    Name=RAMPTH   Time=0   Value=0
